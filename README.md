@@ -20,6 +20,7 @@ It is expected that users have a small familiarity with Docker, Make, and GRASS.
 In short, the repo is built to launch a GRASS environment and call a script with the users grass commands.  Ideally, users should be able to clone the repo, build the Docker locally (or pull it), and run a simple `make` command calling the primary script to perform the GRASS operations.
 
 **Important**
+
 Each time the script is run, the intial operation is to check if a GRASS environment exists. If so, that environment is destroyed and new environment is built.  This method is developed for scripting purposes and not intended for saving data in your GRASS env.
 
 ## Methods
