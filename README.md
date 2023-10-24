@@ -13,7 +13,7 @@ This is a basic example of setting up scripted GRASS process through a Docker im
 
 Included in the repo is the main `Dockerfile` to build GRASS, plus a few extra geospatial bits like `GDAL`, `geospandas`, and `rasterio`. 
 
-It is expected that users have a small familiarity with Docker, Make, and GRASS.  
+It is assumed that users have a small familiarity with Docker, Make, and GRASS.  
 
 ## What this repo does
 
