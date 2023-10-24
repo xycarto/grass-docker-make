@@ -9,7 +9,7 @@ docker
 
 ## Summary
 
-This is a basic example of setting up scripted GRASS process through a Docker image and using a `makefile` to launch the process. The goal is remove the need to install GRASS on your machine and fully containerize the process.
+This is a basic example of setting up scripted GRASS process through a Docker image and using a `makefile` to launch the process. The goal is remove the need to install GRASS on your machine and to fully containerize the process within Docker.
 
 Included in the repo is the main `Dockerfile` to build GRASS, plus a few extra geospatial bits like `GDAL`, `geospandas`, and `rasterio`. 
 
